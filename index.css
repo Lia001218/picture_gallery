@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
 }
+
 body {
   background-color: rgb(140, 208, 208);
 }
@@ -12,8 +13,28 @@ img {
 div {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-
   gap: 20px;
   max-width: 800px;
   margin: 0 auto;
+}
+input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+}
+button {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: rgb(140, 208, 208);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+fieldset {
+  display: grid;
+  border: 0;
+  display: block;
+  max-width: 20px;
+
 }
